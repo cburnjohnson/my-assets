@@ -1,5 +1,7 @@
 <template>
-  <div id="app"></div>
+  <div id="app-container">
+    <h1 class="heading">My Assets</h1>
+  </div>
 </template>
 
 <script>
@@ -10,7 +12,7 @@ export default {
 
 <style lang="scss">
 @import "./scss/main";
-#app {
+#app-container {
   height: 100vh;
   background-color: $main-bg;
 }
